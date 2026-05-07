@@ -1,40 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
-  <diagram name="Ishikawa Centro de Salud Completo">
+  <diagram name="Diagrama Ishikawa">
     <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
 
-        <!-- Header -->
-        <mxCell id="2" style="fillColor=#9fc5f8;strokeColor=#9fc5f8;" vertex="1" parent="1">
-          <mxGeometry x="0" y="0" width="1400" height="120"/>
-        </mxCell>
-
+        <!-- Título -->
         <mxCell id="3"
-        value="&lt;b&gt;DIAGRAMA CAUSA Y EFECTOS&lt;/b&gt;&lt;br&gt;Problemas identificados en el Centro de Salud"
-        style="text;html=1;fontSize=26;fontStyle=1;strokeColor=none;"
+        value="&lt;b&gt;DIAGRAMA&lt;br&gt;CAUSA Y EFECTOS&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:18px'&gt;Problemas identificados en el Centro de Salud&lt;/font&gt;"
+        style="text;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=none;"
         vertex="1" parent="1">
-          <mxGeometry x="300" y="20" width="700" height="80"/>
+          <mxGeometry x="220" y="20" width="500" height="80" as="geometry"/>
         </mxCell>
 
-        <!-- Línea central -->
-        <mxCell id="4" style="endArrow=block;strokeWidth=6;strokeColor=#1c4587;" edge="1" parent="1">
-          <mxGeometry relative="1">
-            <mxPoint x="120" y="420"/>
-            <mxPoint x="1220" y="420"/>
+        <!-- Línea principal -->
+        <mxCell id="4"
+        style="endArrow=block;strokeWidth=6;strokeColor=#1c4587;"
+        edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="420" as="sourcePoint"/>
+            <mxPoint x="1220" y="420" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
 
         <!-- Problema -->
         <mxCell id="5"
-        value="INEFICIENCIA EN LA GESTIÓN Y ATENCIÓN DEL CENTRO DE SALUD"
-        style="rounded=1;fillColor=#ffffff;strokeWidth=2;fontSize=16;"
+        value="&lt;b&gt;INEFICIENCIA EN LA GESTIÓN Y ATENCIÓN DEL CENTRO DE SALUD&lt;/b&gt;"
+        style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeWidth=2;fontSize=18;"
         vertex="1" parent="1">
-          <mxGeometry x="1180" y="340" width="240" height="150"/>
+          <mxGeometry x="1180" y="340" width="220" height="140" as="geometry"/>
         </mxCell>
 
-        <!-- ================= GESTIÓN ================= -->
+        <!-- Gestión -->
+        <mxCell id="6"
+        value="&lt;b&gt;GESTIÓN DE LA INFORMACIÓN&lt;/b&gt;"
+        style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b6d7a8;fontStyle=1;fontSize=16;"
+        vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="220" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="7"
+        style="strokeWidth=3;strokeColor=#93c47d;"
+        edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="190" as="sourcePoint"/>
+            <mxPoint x="410" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Turnos -->
+        <mxCell id="8"
+        value="&lt;b&gt;ASIGNACIÓN DE TURNOS&lt;/b&gt;"
+        style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd966;fontStyle=1;fontSize=16;"
+        vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="220" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="9"
+        style="strokeWidth=3;strokeColor=#f1c232;"
+        edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="190" as="sourcePoint"/>
+            <mxPoint x="720" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Coordinación -->
+        <mxCell id="10"
+        value="&lt;b&gt;COORDINACIÓN INTERDISCIPLINARIA&lt;/b&gt;"
+        style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9b3ff;fontStyle=1;fontSize=16;"
+        vertex="1" parent="1">
+          <mxGeometry x="900" y="130" width="240" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="11"
+        style="strokeWidth=3;strokeColor=#b47ddb;"
+        edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="190" as="sourcePoint"/>
+            <mxPoint x="1050" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Paciente -->
+        <mxCell id="12"
+        value="&lt;b&gt;EXPERIENCIA DEL PACIENTE&lt;/b&gt;"
+        style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ff99cc;fontStyle=1;fontSize=16;"
+        vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="240" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="13"
+        style="strokeWidth=3;strokeColor=#ff66b3;"
+        edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="620" as="sourcePoint"/>
+            <mxPoint x="260" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Tecnología -->
+        <mxCell id="14"
+        value="&lt;b&gt;TECNOLOGÍA Y PROCESOS&lt;/b&gt;"
+        style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6fa8dc;fontStyle=1;fontSize=16;"
+        vertex="1" parent="1">
+          <mxGeometry x="980" y="620" width="240" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="15"
+        style="strokeWidth=3;strokeColor=#3d85c6;"
+        edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="620" as="sourcePoint"/>
+            <mxPoint x="1160" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>        <!-- ================= GESTIÓN ================= -->
         <mxCell id="10" value="GESTIÓN DE LA INFORMACIÓN"
         style="rounded=1;fillColor=#b6d7a8;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="120" width="240" height="60"/>
